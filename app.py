@@ -1,7 +1,5 @@
 # coding: utf-8
 
-# In[1]:
-
 import dash
 from dash.dependencies import Input, Output
 import dash_core_components as dcc
@@ -13,33 +11,21 @@ import json
 import pandas as pd
 import os
 from flask import Flask
+
+
 server = Flask('my app')
-
-
-# In[2]:
 
 df_fund_data = pd.read_csv('https://plot.ly/~jackp/17534.csv')
 df_fund_data.head()
 
-
-# In[3]:
-
 df_perf_summary = pd.read_csv('https://plot.ly/~jackp/17530.csv')
 df_perf_summary.head()
-
-
-# In[4]:
 
 df_cal_year = pd.read_csv('https://plot.ly/~jackp/17528.csv')
 df_cal_year.head()
 
-
-# In[5]:
-
 df_perf_pc = pd.read_csv('https://plot.ly/~jackp/17532.csv')
 
-
-# In[6]:
 
 def make_dash_table(df):
     ''' Return a dash definitio of an HTML table for a Pandas dataframe '''
@@ -52,12 +38,8 @@ def make_dash_table(df):
     return table
 
 
-# In[7]:
-
 modifed_perf_table = make_dash_table(df_perf_summary)
 
-
-# In[8]:
 
 modifed_perf_table.insert(
     0, html.Tr([
@@ -69,23 +51,15 @@ modifed_perf_table.insert(
 )
 
 
-# In[9]:
-
 df_fund_info = pd.read_csv('https://plot.ly/~jackp/17544.csv')
 df_fund_characteristics = pd.read_csv('https://plot.ly/~jackp/17542.csv')
 df_fund_facts = pd.read_csv('https://plot.ly/~jackp/17540.csv')
 df_bond_allocation = pd.read_csv('https://plot.ly/~jackp/17538.csv')
 
 
-# In[10]:
-
-dash.__version__
-
-
-# In[11]:
-
 app = dash.Dash('GS Bond II Portfolio', server=server,
                 url_base_pathname='/dash/gallery/goldman-sachs-report/', csrf_protect=False)
+
 
 # Describe the layout, or the UI, of the app
 app.layout = html.Div([
@@ -317,6 +291,5 @@ for js in external_js:
     app.scripts.append_script({"external_url": js})
 
 
-# In[ ]:
 if __name__ == '__main__':
     app.server.run()
