@@ -1,0 +1,10 @@
+---
+applications:
+- name: gold
+  buildpack: python_buildpack
+  #command: echo "BBBB" && nc -l -p 8080
+  #health-check-type: process
+  memory: 2GB 
+  disk: 4GB
+  instances: 1
+  timeout: 180

@@ -1,0 +1,31 @@
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta charset="UTF-8"/>
+                <title>Dash</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"></link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"></link>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,300,600"></link>
+<link rel="stylesheet" href="https://cdn.rawgit.com/plotly/dash-app-stylesheets/5047eb29e4afe01b45b27b1d2f7deda2a942311a/goldman-sachs-report.css"></link>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+            </head>
+            <body>
+                <div id="react-entry-point">
+                    <div class="_dash-loading">
+                        Loading...
+                    </div>
+                </div>
+            </body>
+
+            <footer>
+                <script id="_dash-config" type="application/json">{"oauth_client_id": "RcXzjux4DGfb8bWG9UNGpJUGsTaS0pUVHoEf7Ecl", "redirect_uri": "http://localhost:9595", "plotly_domain": "https://plot.ly", "fid": null, "url_base_pathname": "/"}</script>
+                <script type="text/JavaScript" src="https://unpkg.com/react@15.4.2/dist/react.min.js"></script>
+<script type="text/JavaScript" src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.min.js"></script>
+<script type="text/JavaScript" src="https://unpkg.com/dash-html-components@0.6.0/dash_html_components/bundle.js"></script>
+<script type="text/JavaScript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/JavaScript" src="https://cdn.rawgit.com/plotly/dash-app-stylesheets/a3401de132a6d0b652ba11548736b1d1e80aa10d/dash-goldman-sachs-report-js.js"></script>
+<script type="text/JavaScript" src="https://unpkg.com/dash-renderer@0.7.2/dash_renderer/bundle.js"></script>
+            </footer>
+        </html>
+        

@@ -1,0 +1,16 @@
+HTTrack3.48-1+libhtsjava.so.2 launched on Sun, 24 Sep 2017 03:41:26 at http://dash-goldman.apps.pcfdemo.net/ .
+(httrack http://dash-goldman.apps.pcfdemo.net/ . -e -B -k -Y )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:41:27	Warning: 	File not parsed, looks like binary: dash-goldman.apps.pcfdemo.net/robots.txt
+03:41:34	Error: 	"Unable to get server's address: No address associated with hostname" (-5) after 2 retries at link ./robots.txt (from primary/primary)
+03:41:34	Warning: 	Retry after error -5 (Unable to get server's address: No address associated with hostname) at link ./ (from primary/primary)
+03:41:42	Warning: 	Retry after error -5 (Unable to get server's address: No address associated with hostname) at link ./ (from primary/primary)
+03:41:45	Error: 	"Unable to get server's address: No address associated with hostname" (-5) after 2 retries at link ./ (from primary/primary)
+
+HTTrack Website Copier/3.48-1 mirror complete in 19 seconds : 29 links scanned, 21 files written (1982965 bytes overall) [898632 bytes received at 47296 bytes/sec], 1808071 bytes transferred using HTTP compression in 21 files, ratio 39%, 1.3 requests per connection
+(2 errors, 3 warnings, 0 messages)

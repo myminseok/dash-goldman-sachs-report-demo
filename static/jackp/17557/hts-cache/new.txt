@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+00:15:41	42200/42200	---MCZ	200	added ('OK')	text/html	date:Mon,%2025%20Sep%202017%2005:40:00%20GMT	https://plot.ly/~jackp/17557.embed?modebar=false	plot.ly/_jackp/17557bff9.html	(from )
+00:15:41	116/116	---MCZ	200	added ('OK')	text/html	date:Mon,%2025%20Sep%202017%2005:40:01%20GMT	https://plot.ly/robots.txt		(from )
+00:15:42	22983/22983	---MC-	200	added ('OK')	image/png	date:Mon,%2025%20Sep%202017%2005:40:02%20GMT	https://plot.ly/~jackp/17557.png	plot.ly/_jackp/17557.png	(from https://plot.ly/~jackp/17557.embed?modebar=false)

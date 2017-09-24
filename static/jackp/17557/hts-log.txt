@@ -1,0 +1,12 @@
+HTTrack3.48-1+libhtsjava.so.2 launched on Sun, 24 Sep 2017 00:15:30 at https://plot.ly/~jackp/17557.embed?modebar=false
+(httrack https://plot.ly/~jackp/17557.embed?modebar=false )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:15:41	Warning: 	File not parsed, looks like binary: https://plot.ly/robots.txt
+
+HTTrack Website Copier/3.48-1 mirror complete in 12 seconds : 3 links scanned, 2 files written (65183 bytes overall) [32710 bytes received at 2725 bytes/sec], 42316 bytes transferred using HTTP compression in 2 files, ratio 15%
+(No errors, 1 warnings, 0 messages)

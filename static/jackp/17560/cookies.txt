@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+plot.ly	TRUE	/	FALSE	1999999999	GCLB	CM-lvuTgnYHaGQ
+.plot.ly	TRUE	/	FALSE	1999999999	plotly_sess_pr	n1mn1k76sjf0wt3axy22zka9gpkci6ty
+.plot.ly	TRUE	/	FALSE	1999999999	plotly_csrf_pr	7JIiwNVMJ0jxZxQhVFbPkG3mIjS0WABT
+.plot.ly	TRUE	/	FALSE	1999999999	plotly_anoncsrf_pr	AwLMf3pJvObvsfCVVN5NRNapfodS3wCi
+
