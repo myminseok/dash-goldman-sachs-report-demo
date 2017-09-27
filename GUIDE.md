@@ -3,7 +3,7 @@
 어플리케이션은 [Pivotal Cloud Foundry](https://pivotal.io/platform)상에 자동으로 배포가 되며, 어플리케이션 구동에 필요한 web application framework, OS library가 자동으로 구성됩니다.
 이때, 어플리케이션 마다 필요한 실행환경정보는 python script개발자가 아래의 파일로 제공하게 됩니다.
 
-##  script 실행환경 구성을 위한 파일
+##  python script 실행환경 구성을 위한 파일
 
 1. app.py : (필수)  https://plot.ly/dash/gallery 참조.
 2. requirements.txt :(필수)
@@ -28,7 +28,7 @@ applications:
 - host: (선택, default는 name항목의 값) apps.pcf.sec.com 도메인의 하위이름으로 사용할 이름 지정.
 
 
-## requirements.tx
+## requirements.txt
 어플리케이션에서 사용하는 dependency library목록을 기술합니다. 이때 index-url에 다운로드 받을 pypi repo를 지정합니다. default는 https://pypi.python.org/simple입니다.
 http protocol일 경우 trusted-host에 지정합니다.
 ```
