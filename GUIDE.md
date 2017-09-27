@@ -12,6 +12,26 @@
 
 ## 작성 예시
 
+### app.py
+작성은  https://plot.ly/dash/gallery 참조.
+
+```
+... 중략
+
+from flask import Flask
+server = Flask('my app')
+app = dash.Dash('GS Bond II Portfolio', server=server,
+                url_base_pathname='/', csrf_protect=False)
+app.scripts.config.serve_locally = True
+
+... 중략
+
+if __name__ == '__main__':
+    app.server.run(host="0.0.0.0", port="9000")
+```
+
+
+
 ### manifest.yml
 ```
 ---
