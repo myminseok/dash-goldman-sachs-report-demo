@@ -8,7 +8,7 @@
 1. app.py : (필수)  https://plot.ly/dash/gallery 참조.
 2. requirements.txt :(필수)
 3. Procfile  : (필수)
-4. manifest.yml: (선택)
+4. manifest.yml: (필수)
 
 ## 작성 예시
 
