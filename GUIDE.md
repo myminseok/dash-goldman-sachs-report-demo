@@ -31,7 +31,7 @@ if __name__ == '__main__':
 ```
 
 
-## requirements.txt
+### requirements.txt
 어플리케이션에서 사용하는 dependency library목록을 기술합니다. 이때 index-url에 다운로드 받을 pypi repo를 지정합니다. default는 https://pypi.python.org/simple입니다.
 http protocol일 경우 trusted-host에 지정합니다.
 ```
@@ -45,7 +45,7 @@ pandas-datareader==0.3.0.post0
 plotly==2.0.10
 ```
 
-## Procfile
+### Procfile
 어플리케이션을 실행하는 스크립트로, 대부부분 변경없이 아래내용 그대로 사용가능합니다.
 
 ```
@@ -71,7 +71,7 @@ applications:
 
 
 
-# 참조
+## 참조
 - PCF상에 python 어플리케이션 배포 가이드https://docs.run.pivotal.io/buildpacks/python/index.html
 - 샘플참조: https://github.com/myminseok/dash-goldman-sachs-report-demo
 
