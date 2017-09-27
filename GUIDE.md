@@ -31,23 +31,6 @@ if __name__ == '__main__':
 ```
 
 
-
-### manifest.yml
-```
----
-applications:
-- name: gold
-  host: gold
-  buildpack: python_buildpack
-  memory: 2GB 
-  disk: 4GB
-  instances: 1
-  timeout: 180
-```
-- name: (필수) PCF상에서 관리를 위한 어플리케이션 이름
-- host: (선택, default는 name항목의 값) apps.pcf.sec.com 도메인의 하위이름으로 사용할 이름 지정.
-
-
 ## requirements.txt
 어플리케이션에서 사용하는 dependency library목록을 기술합니다. 이때 index-url에 다운로드 받을 pypi repo를 지정합니다. default는 https://pypi.python.org/simple입니다.
 http protocol일 경우 trusted-host에 지정합니다.
@@ -68,6 +51,24 @@ plotly==2.0.10
 ```
 web: gunicorn app:server --timeout 300
 ```
+
+
+### manifest.yml
+```
+---
+applications:
+- name: gold
+  host: gold
+  buildpack: python_buildpack
+  memory: 2GB 
+  disk: 4GB
+  instances: 1
+  timeout: 180
+```
+- name: (필수) PCF상에서 관리를 위한 어플리케이션 이름
+- host: (선택, default는 name항목의 값) apps.pcf.sec.com 도메인의 하위이름으로 사용할 이름 지정.
+
+
 
 
 # 참조
